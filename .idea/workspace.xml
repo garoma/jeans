@@ -4,20 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf973e6b-c776-4c85-8e9d-2547d7447642" name="Changes" comment="publicar">
+    <list default="true" id="bf973e6b-c776-4c85-8e9d-2547d7447642" name="Changes" comment="4 fase">
+      <change afterPath="$PROJECT_DIR$/calca_c.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2vQJFeHI64XtHJyUUXd6KN6cDwp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,11 +36,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Python/Curso/joqqer/pyVitrine/img",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\Curso\joqqer\pyVitrine\img" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pyVitrine" />
@@ -79,12 +96,83 @@
       <option name="project" value="LOCAL" />
       <updated>1744072133303</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1 fase">
+      <option name="closed" value="true" />
+      <created>1744072611408</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744072611408</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1 fase">
+      <option name="closed" value="true" />
+      <created>1744072650153</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744072650153</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2 fase">
+      <option name="closed" value="true" />
+      <created>1744074643434</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744074643434</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2 fase">
+      <option name="closed" value="true" />
+      <created>1744074838595</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744074838595</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2 fase">
+      <option name="closed" value="true" />
+      <created>1744074858026</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744074858026</updated>
+    </task>
+    <task id="LOCAL-00007" summary="3 fase">
+      <option name="closed" value="true" />
+      <created>1744076978251</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744076978251</updated>
+    </task>
+    <task id="LOCAL-00008" summary="4 fase">
+      <option name="closed" value="true" />
+      <created>1744077237697</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744077237697</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="publicar" />
-    <option name="LAST_COMMIT_MESSAGE" value="publicar" />
+    <MESSAGE value="1 fase" />
+    <MESSAGE value="2 fase" />
+    <MESSAGE value="3 fase" />
+    <MESSAGE value="4 fase" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 fase" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
