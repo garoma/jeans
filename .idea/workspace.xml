@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf973e6b-c776-4c85-8e9d-2547d7447642" name="Changes" comment="8 fase">
+    <list default="true" id="bf973e6b-c776-4c85-8e9d-2547d7447642" name="Changes" comment="9 fase">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calca_c.html" beforeDir="false" afterPath="$PROJECT_DIR$/calca_c.html" afterDir="false" />
     </list>
@@ -198,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744155892919</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="9 fase">
+      <option name="closed" value="true" />
+      <created>1744156764660</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1744156764660</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,7 +230,8 @@
     <MESSAGE value="6 fase" />
     <MESSAGE value="7 fase" />
     <MESSAGE value="8 fase" />
-    <option name="LAST_COMMIT_MESSAGE" value="8 fase" />
+    <MESSAGE value="9 fase" />
+    <option name="LAST_COMMIT_MESSAGE" value="9 fase" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -130,6 +130,39 @@
         font-size: 0.95rem;
       }
     }
+
+    .whatsapp-float {
+      background-color: #25D366;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      animation: pulse 2s infinite;
+    }
+
+    .whatsapp-float img {
+      width: 28px;
+      height: 28px;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+      }
+      70% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 10px rgba(37, 211, 102, 0);
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+      }
+    }
+
   </style>
 </head>
 <body>
@@ -154,8 +187,8 @@
   </div>
 
   <div class="floating-buttons">
-    <a href="https://wa.me/5581991257099?text=Olá!%20Gostei%20da%20calça%20skinny!%20Quero%20mais%20informações." target="_blank" title="Falar no WhatsApp">
-      🟢
+    <a href="https://wa.me/5581991257099?text=Olá!%20Gostei%20da%20calça%20skinny!%20Quero%20mais%20informações." target="_blank" title="Falar no WhatsApp" class="whatsapp-float">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp" width="30" height="30">
     </a>
     <button onclick="window.location.href='index.html'" title="Voltar para a Home">🏠</button>
   </div>
