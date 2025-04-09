@@ -2,29 +2,58 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Short Jeans escuro</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="visualizar.css" />
 </head>
 <body>
-  <header>
-    <h1>Short Jeans escuro</h1>
-    <p>Visualize os detalhes do produto</p>
-  </header>
 
-  <section class="visualizador">
-    <img src="img/Short_e_01.jpeg" alt="calca_e_01">
-    <img src="img/Short_e_02.jpeg" alt="calca_e_02">
-    <img src="img/Short_e_03.jpeg" alt="calca_e_03">
-  </section>
+  <div class="carousel-container">
+    <img class="carousel-image active" src="img/short_e_01.jpeg" alt="short_e_01">
+    <img class="carousel-image" src="img/short_e_02.jpeg" alt="short_e_02">
+    <img class="carousel-image" src="img/short_e_03.jpeg" alt="short_e_03">
 
-  <div class="whatsapp-container">
-    <a class="whatsapp-btn" href="https://wa.me/5581991257099?text=Olá!%20Gostei%20da%20calça%20skinny!%20Quero%20mais%20informações." target="_blank">
-      📲 Falar sobre este produto
-    </a>
+    <div class="nav-arrow prev" onclick="changeSlide(-1)">&#10094;</div>
+    <div class="nav-arrow next" onclick="changeSlide(1)">&#10095;</div>
   </div>
 
-  <footer>
-    <p>&copy; 2025 Jokeer Jeans | Todos os direitos reservados.</p>
-  </footer>
+  <div class="product-info">
+    <h2>Short Jeans Clara</h2>
+    <div class="price">R$ 89,90</div>
+    <p>
+      Calça jeans feminina modelo skinny, com lavagem clara e caimento perfeito.
+      Confeccionada com tecido jeans de alta qualidade, proporciona conforto e estilo em qualquer ocasião.
+      Ideal para compor looks casuais e modernos.
+    </p>
+  </div>
+
+  <div class="floating-buttons">
+    <a href="https://wa.me/5581991257099?text=Olá!%20Gostei%20da%20calça%20skinny!%20Quero%20mais%20informações." target="_blank" title="Falar no WhatsApp" class="whatsapp-float">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp" width="30" height="30">
+    </a>
+    <button onclick="window.location.href='index.html'" title="Voltar para a Home">🏠</button>
+  </div>
+
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll(".carousel-image");
+
+    function showSlide(index) {
+      slides.forEach((img, i) => {
+        img.classList.remove("active");
+        if (i === index) {
+          img.classList.add("active");
+        }
+      });
+    }
+
+    function changeSlide(direction) {
+      currentSlide += direction;
+      if (currentSlide < 0) currentSlide = slides.length - 1;
+      if (currentSlide >= slides.length) currentSlide = 0;
+      showSlide(currentSlide);
+    }
+  </script>
+
 </body>
 </html>
