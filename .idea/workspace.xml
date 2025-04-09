@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf973e6b-c776-4c85-8e9d-2547d7447642" name="Changes" comment="9 fase">
+    <list default="true" id="bf973e6b-c776-4c85-8e9d-2547d7447642" name="Changes" comment="10 fase">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calca_c.html" beforeDir="false" afterPath="$PROJECT_DIR$/calca_c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calca_e.html" beforeDir="false" afterPath="$PROJECT_DIR$/calca_e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saia_c.html" beforeDir="false" afterPath="$PROJECT_DIR$/saia_c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saia_e.html" beforeDir="false" afterPath="$PROJECT_DIR$/saia_e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/short_c.html" beforeDir="false" afterPath="$PROJECT_DIR$/short_c.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744156764660</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="10 fase">
+      <option name="closed" value="true" />
+      <created>1744157562849</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1744157562849</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,7 +243,8 @@
     <MESSAGE value="7 fase" />
     <MESSAGE value="8 fase" />
     <MESSAGE value="9 fase" />
-    <option name="LAST_COMMIT_MESSAGE" value="9 fase" />
+    <MESSAGE value="10 fase" />
+    <option name="LAST_COMMIT_MESSAGE" value="10 fase" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
